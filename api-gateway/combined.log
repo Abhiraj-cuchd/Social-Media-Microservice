@@ -1,0 +1,15 @@
+{"level":"info","message":"API Gateway is running on PORT: 3000","service":"API-Gateway","timestamp":"2025-02-08T07:51:17.293Z"}
+{"level":"info","message":"Identity Service is running on: http://localhost:3001/api/auth","service":"API-Gateway","timestamp":"2025-02-08T07:51:17.296Z"}
+{"level":"info","message":"Redis Url: redis://localhost:6379","service":"API-Gateway","timestamp":"2025-02-08T07:51:17.296Z"}
+{"level":"info","message":"API Gateway is running on PORT: 3000","service":"API-Gateway","timestamp":"2025-02-08T07:58:18.568Z"}
+{"level":"info","message":"Identity Service is running on: http://localhost:3001/api/auth","service":"API-Gateway","timestamp":"2025-02-08T07:58:18.572Z"}
+{"level":"info","message":"Redis Url: redis://localhost:6379","service":"API-Gateway","timestamp":"2025-02-08T07:58:18.572Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2025-02-08T07:58:23.388Z"}
+{"level":"info","message":"Request Body [object Object]","service":"API-Gateway","timestamp":"2025-02-08T07:58:23.388Z"}
+{"level":"info","message":"Response recieved from Identity Service: 201","service":"API-Gateway","timestamp":"2025-02-08T07:58:23.952Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"API-Gateway","timestamp":"2025-02-08T08:00:39.764Z"}
+{"level":"info","message":"Request Body [object Object]","service":"API-Gateway","timestamp":"2025-02-08T08:00:39.765Z"}
+{"level":"info","message":"Response recieved from Identity Service: 400","service":"API-Gateway","timestamp":"2025-02-08T08:00:39.944Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"API-Gateway","timestamp":"2025-02-08T08:15:25.259Z"}
+{"level":"info","message":"Request Body [object Object]","service":"API-Gateway","timestamp":"2025-02-08T08:15:25.259Z"}
+{"level":"info","message":"Response recieved from Identity Service: 200","service":"API-Gateway","timestamp":"2025-02-08T08:15:25.930Z"}
