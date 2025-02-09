@@ -157,3 +157,16 @@
 {"level":"info","message":"Connected to MongoDB","service":"Identity Service","timestamp":"2025-02-08T08:48:11.929Z"}
 {"level":"info","message":"Identity Service Running on PORT: 3001","service":"Identity Service","timestamp":"2025-02-08T08:48:28.423Z"}
 {"level":"info","message":"Connected to MongoDB","service":"Identity Service","timestamp":"2025-02-08T08:48:30.493Z"}
+{"level":"info","message":"Identity Service Running on PORT: 3001","service":"Identity Service","timestamp":"2025-02-09T07:07:46.075Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Identity Service","timestamp":"2025-02-09T07:07:48.913Z"}
+{"level":"info","message":"Identity Service Running on PORT: 3001","service":"Identity Service","timestamp":"2025-02-09T07:26:38.828Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Identity Service","timestamp":"2025-02-09T07:26:41.497Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"Identity Service","timestamp":"2025-02-09T07:43:41.974Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Identity Service","timestamp":"2025-02-09T07:43:41.975Z"}
+{"level":"info","message":"Login endpoint hit","service":"Identity Service","timestamp":"2025-02-09T07:43:41.978Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"Identity Service","timestamp":"2025-02-09T08:17:48.407Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Identity Service","timestamp":"2025-02-09T08:17:48.408Z"}
+{"level":"info","message":"Login endpoint hit","service":"Identity Service","timestamp":"2025-02-09T08:17:48.410Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"Identity Service","timestamp":"2025-02-09T08:35:07.659Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Identity Service","timestamp":"2025-02-09T08:35:07.660Z"}
+{"level":"info","message":"Login endpoint hit","service":"Identity Service","timestamp":"2025-02-09T08:35:07.662Z"}

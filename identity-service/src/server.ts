@@ -56,9 +56,7 @@ const sensitiveEndpointsLimiter = rateLimit({
         sendCommand: async (...args: string[]) => {
             return redisClient.call(args[0], ...args.slice(1)) as unknown as RedisReply;
         }
-
     })
-
 });
 
 app.use('/api/auth/register', sensitiveEndpointsLimiter);
