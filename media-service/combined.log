@@ -1,0 +1,74 @@
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Post Service","timestamp":"2025-02-10T08:50:19.183Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-10T08:50:22.763Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T08:51:19.430Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T08:51:21.948Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T08:54:45.718Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T08:54:47.572Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T08:55:02.268Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T08:55:03.956Z"}
+{"level":"info","message":"Recieved POST request to /api/upload-media/create-media","service":"Media Service","timestamp":"2025-02-10T09:01:50.085Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Media Service","timestamp":"2025-02-10T09:01:50.086Z"}
+{"$fault":"client","$metadata":{"attempts":1,"extendedRequestId":"feDb/4vmI3XN/iHP+wq6rcIRfpt3hevarOjMRwuCMLtBpBh0bYARSJ6IEKACJ/kRT3ffSx1+KLQ=","httpStatusCode":400,"requestId":"0WEDRR1ZGX6XEE9B","totalRetryDelay":0},"Code":"AccessControlListNotSupported","HostId":"feDb/4vmI3XN/iHP+wq6rcIRfpt3hevarOjMRwuCMLtBpBh0bYARSJ6IEKACJ/kRT3ffSx1+KLQ=","RequestId":"0WEDRR1ZGX6XEE9B","level":"error","message":"The bucket does not allow ACLs","name":"AccessControlListNotSupported","service":"Media Service","stack":"AccessControlListNotSupported: The bucket does not allow ACLs\n    at throwDefaultError (/home/abhiraj/Work/social-media-microservice/media-service/node_modules/@smithy/smithy-client/dist-cjs/index.js:867:20)\n    at /home/abhiraj/Work/social-media-microservice/media-service/node_modules/@smithy/smithy-client/dist-cjs/index.js:876:5\n    at de_CommandError (/home/abhiraj/Work/social-media-microservice/media-service/node_modules/@aws-sdk/client-s3/dist-cjs/index.js:4970:14)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/abhiraj/Work/social-media-microservice/media-service/node_modules/@smithy/middleware-serde/dist-cjs/index.js:35:20\n    at async /home/abhiraj/Work/social-media-microservice/media-service/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/index.js:483:18\n    at async /home/abhiraj/Work/social-media-microservice/media-service/node_modules/@smithy/middleware-retry/dist-cjs/index.js:321:38\n    at async /home/abhiraj/Work/social-media-microservice/media-service/node_modules/@aws-sdk/middleware-flexible-checksums/dist-cjs/index.js:315:18\n    at async /home/abhiraj/Work/social-media-microservice/media-service/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/index.js:109:22\n    at async /home/abhiraj/Work/social-media-microservice/media-service/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/index.js:136:14","timestamp":"2025-02-10T09:01:53.010Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:02:21.978Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:02:24.209Z"}
+{"level":"info","message":"Recieved POST request to /api/upload-media/create-media","service":"Media Service","timestamp":"2025-02-10T09:02:28.880Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Media Service","timestamp":"2025-02-10T09:02:28.880Z"}
+{"level":"info","message":"Recieved POST request to /api/upload-media/create-media","service":"Media Service","timestamp":"2025-02-10T09:04:54.969Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Media Service","timestamp":"2025-02-10T09:04:54.972Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:13:35.363Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:13:37.969Z"}
+{"level":"info","message":"Recieved POST request to /api/upload-media/create-media","service":"Media Service","timestamp":"2025-02-10T09:16:02.125Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Media Service","timestamp":"2025-02-10T09:16:02.126Z"}
+{"level":"error","message":"Error uploading to S3: Cannot read properties of undefined (reading 'userId')","service":"Media Service","stack":"TypeError: Cannot read properties of undefined (reading 'userId')\n    at /home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:12:33\n    at step (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:33:23)\n    at Object.next (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:14:53)\n    at /home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:4:12)\n    at handleUploadMedia (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:6:64)\n    at /home/abhiraj/Work/social-media-microservice/media-service/src/routes/index.ts:8:22\n    at Layer.handle [as handle_request] (/home/abhiraj/Work/social-media-microservice/media-service/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abhiraj/Work/social-media-microservice/media-service/node_modules/express/lib/router/route.js:149:13)","timestamp":"2025-02-10T09:16:02.138Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:16:17.375Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:16:19.479Z"}
+{"level":"info","message":"Recieved POST request to /api/upload-media/create-media","service":"Media Service","timestamp":"2025-02-10T09:16:23.971Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Media Service","timestamp":"2025-02-10T09:16:23.972Z"}
+{"level":"error","message":"Error uploading to S3: Cannot read properties of undefined (reading 'userId')","service":"Media Service","stack":"TypeError: Cannot read properties of undefined (reading 'userId')\n    at /home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:12:33\n    at step (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:33:23)\n    at Object.next (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:14:53)\n    at /home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:4:12)\n    at handleUploadMedia (/home/abhiraj/Work/social-media-microservice/media-service/src/controllers/media.controller.ts:6:64)\n    at /home/abhiraj/Work/social-media-microservice/media-service/src/routes/index.ts:8:22\n    at Layer.handle [as handle_request] (/home/abhiraj/Work/social-media-microservice/media-service/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/abhiraj/Work/social-media-microservice/media-service/node_modules/express/lib/router/route.js:149:13)","timestamp":"2025-02-10T09:16:23.983Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:16:59.237Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:17:00.964Z"}
+{"level":"info","message":"Recieved POST request to /api/upload-media/create-media","service":"Media Service","timestamp":"2025-02-10T09:17:03.857Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Media Service","timestamp":"2025-02-10T09:17:03.858Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:20:31.640Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:20:33.823Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:20:51.428Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:20:52.821Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:20:59.056Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:21:00.809Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:21:15.962Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:21:17.808Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:21:31.262Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:21:35.895Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:21:40.696Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:21:42.305Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:21:48.294Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:21:50.128Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:21:57.138Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:21:58.839Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:22:13.489Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:22:14.951Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:22:32.268Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:22:34.205Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:22:38.883Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:22:43.264Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:22:44.853Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:22:48.066Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:22:49.968Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:23:03.605Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:23:08.322Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:23:10.455Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:23:22.606Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:23:26.274Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:23:28.171Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:23:33.354Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:23:35.033Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:23:48.715Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:23:50.610Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:24:42.360Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:24:43.646Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:24:54.216Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:24:56.749Z"}
+{"level":"info","message":"Media Service Running on PORT: 3003","service":"Media Service","timestamp":"2025-02-10T09:26:57.843Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Media Service","timestamp":"2025-02-10T09:27:00.045Z"}
+{"level":"info","message":"Recieved POST request to /api/upload-media/create-media","service":"Media Service","timestamp":"2025-02-10T09:27:31.060Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Media Service","timestamp":"2025-02-10T09:27:31.060Z"}

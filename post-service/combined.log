@@ -166,3 +166,89 @@
 {"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T08:42:09.596Z"}
 {"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T08:42:23.062Z"}
 {"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T08:42:24.875Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T08:45:47.862Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T08:45:49.947Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T08:46:05.880Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T08:46:07.302Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:09:47.108Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:09:49.690Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:10:54.033Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:10:54.034Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:10:57.749Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:10:57.749Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:11:36.189Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:11:39.873Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:11:41.609Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:12:01.790Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:12:03.323Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:12:22.522Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:12:23.907Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:12:59.922Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:13:01.651Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:13:44.797Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:13:46.263Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:13:50.020Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:13:54.379Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:13:56.222Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:14:41.506Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:14:43.206Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:14:56.167Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:14:57.530Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:15:01.402Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:15:03.184Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:15:28.019Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:15:32.635Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:15:33.450Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:15:39.873Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:15:41.480Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:15:55.533Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:16:01.051Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:16:10.013Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:16:11.384Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:16:21.969Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:16:30.486Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:16:32.276Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:16:46.445Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:16:47.731Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:17:25.317Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:17:26.992Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:17:46.227Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:17:46.228Z"}
+{"level":"info","message":"Post Delete Endpoint Hit","service":"Post Service","timestamp":"2025-02-09T11:17:46.232Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"Post Service","timestamp":"2025-02-09T11:17:46.654Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:18:25.450Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:18:27.008Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:18:32.221Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:18:32.222Z"}
+{"level":"info","message":"Post Delete Endpoint Hit","service":"Post Service","timestamp":"2025-02-09T11:18:32.223Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"Post Service","timestamp":"2025-02-09T11:18:32.545Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:19:05.208Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:19:18.439Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:19:28.633Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:19:30.513Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:19:34.398Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:19:34.399Z"}
+{"level":"info","message":"Post Delete Endpoint Hit","service":"Post Service","timestamp":"2025-02-09T11:19:34.400Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"Post Service","timestamp":"2025-02-09T11:19:34.567Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:20:07.156Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:20:13.580Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:20:15.372Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:20:26.975Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:20:28.477Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:20:31.421Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:20:31.421Z"}
+{"level":"info","message":"Post Delete Endpoint Hit","service":"Post Service","timestamp":"2025-02-09T11:20:31.423Z"}
+{"kind":"ObjectId","level":"error","message":"Error Deleting Post Cast to ObjectId failed for value \"{ _id: undefined }\" (type Object) at path \"_id\" for model \"Post\"","path":"_id","reason":{},"service":"Post Service","stack":"CastError: Cast to ObjectId failed for value \"{ _id: undefined }\" (type Object) at path \"_id\" for model \"Post\"\n    at SchemaObjectId.cast (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaObjectId.SchemaType.applySetters (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaObjectId.SchemaType.castForQuery (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at cast (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/cast.js:319:34)\n    at model.Query.Query.cast (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:4897:12)\n    at model.Query.Query._castConditions (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:2306:10)\n    at model.Query._findOneAndDelete (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:3537:8)\n    at model.Query.exec (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:4446:80)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","stringValue":"\"{ _id: undefined }\"","timestamp":"2025-02-09T11:20:31.565Z","value":{},"valueType":"Object"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:20:55.108Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:20:56.547Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:21:02.401Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:21:02.401Z"}
+{"level":"info","message":"Post Delete Endpoint Hit","service":"Post Service","timestamp":"2025-02-09T11:21:02.402Z"}
+{"kind":"ObjectId","level":"error","message":"Error Deleting Post Cast to ObjectId failed for value \"{ _id: undefined }\" (type Object) at path \"_id\" for model \"Post\"","path":"_id","reason":{},"service":"Post Service","stack":"CastError: Cast to ObjectId failed for value \"{ _id: undefined }\" (type Object) at path \"_id\" for model \"Post\"\n    at SchemaObjectId.cast (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaObjectId.SchemaType.applySetters (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaObjectId.SchemaType.castForQuery (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at cast (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/cast.js:319:34)\n    at model.Query.Query.cast (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:4897:12)\n    at model.Query.Query._castConditions (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:2306:10)\n    at model.Query._findOneAndDelete (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:3537:8)\n    at model.Query.exec (/home/abhiraj/Work/social-media-microservice/post-service/node_modules/mongoose/lib/query.js:4446:80)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","stringValue":"\"{ _id: undefined }\"","timestamp":"2025-02-09T11:21:02.513Z","value":{},"valueType":"Object"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:21:27.243Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-09T11:21:34.829Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-09T11:21:36.658Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/single-post/67a86603e282e62c3009f48a","service":"Post Service","timestamp":"2025-02-09T11:21:40.193Z"}
+{"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:21:40.194Z"}
+{"level":"info","message":"Post Delete Endpoint Hit","service":"Post Service","timestamp":"2025-02-09T11:21:40.195Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"Post Service","timestamp":"2025-02-09T11:21:40.554Z"}

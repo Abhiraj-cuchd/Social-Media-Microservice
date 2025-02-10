@@ -111,8 +111,20 @@ export const getPost = async (req: any, res: Response) => {
 }
 
 export const deletePost = async (req: Request, res: Response) => {
+    logger.info('Post Delete Endpoint Hit')
     try {
-
+        const { postId } = req.params;
+        console.log("check1", postId)
+        const post = await PostModel.findById(postId)
+        console.log("check2")
+        await PostModel.findByIdAndDelete({ _id: postId });
+        console.log("check3")
+        invalidatePostCache(post, postId, true);
+        console.log("check4")
+        res.status(200).json({
+            success: true,
+            message: "Post Deleted Succesfully"
+        });
     } catch (error) {
         logger.error("Error Deleting Post", error);
         res.status(500).json({
