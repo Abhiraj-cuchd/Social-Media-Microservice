@@ -11,6 +11,8 @@ export const authenticateRequest = (req: any, res: Response, next: NextFunction)
         })
     }
 
+    
+
     req.user = { userId }
     next();
 }

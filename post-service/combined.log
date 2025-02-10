@@ -252,3 +252,5 @@
 {"level":"info","message":"Request Body [object Object]","service":"Post Service","timestamp":"2025-02-09T11:21:40.194Z"}
 {"level":"info","message":"Post Delete Endpoint Hit","service":"Post Service","timestamp":"2025-02-09T11:21:40.195Z"}
 {"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"Post Service","timestamp":"2025-02-09T11:21:40.554Z"}
+{"level":"info","message":"Post Service Running on PORT: 3002","service":"Post Service","timestamp":"2025-02-10T09:42:43.830Z"}
+{"level":"info","message":"Connected to MongoDB","service":"Post Service","timestamp":"2025-02-10T09:42:47.367Z"}
