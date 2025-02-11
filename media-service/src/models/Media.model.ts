@@ -14,12 +14,16 @@ const mediaSchema = new mongoose.Schema<IMedia>({
     },
     mediaUrls: [
         {
-            orginalName: {
+            imageKey: {
+                type: String
+            },
+            originalName: {
                 type: String
             },
             fileUrl: {
                 type: String
             }
+
         }
     ]
 }, { timestamps: true })

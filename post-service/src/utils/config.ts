@@ -9,7 +9,8 @@ const _envConfig = {
     mongo_url: process.env.MONGO_URL,
     jwt_secret: process.env.JWT_SECRET,
     port: process.env.PORT || 3002,
-    redis_url: process.env.REDIS_URL
+    redis_url: process.env.REDIS_URL,
+    rabbitmq_url: process.env.RABBITMQ_URL
 }
 Object.freeze(_envConfig);
 

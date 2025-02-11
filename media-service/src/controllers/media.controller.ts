@@ -15,9 +15,9 @@ export const handleUploadMedia = async (req: any, res: Response) => {
         const fileUrls = await Promise.all(
             req.files.map(uploadFileToS3)
         );
-
         const { files } = formatResponse(fileUrls, req.files);
-        await MediaModel.create({ mediaUrls: files })
+        const media = await MediaModel.create({ mediaUrls: files });
+        
 
         return res.json(formatResponse(fileUrls, req.files));
     } catch (error: any) {

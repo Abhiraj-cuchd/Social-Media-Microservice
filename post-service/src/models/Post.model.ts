@@ -11,11 +11,10 @@ const postSchema = new mongoose.Schema<IPost>({
         type: String,
         required: true,
     },
-    mediaUrls: [
-        {
-            type: String
-        }
-    ]
+    mediaId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Media',
+    }
 }, { timestamps: true })
 
 postSchema.index({ content: 'text' });

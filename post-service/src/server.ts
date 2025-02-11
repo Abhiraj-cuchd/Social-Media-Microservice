@@ -9,6 +9,7 @@ import rateLimit from 'express-rate-limit';
 const postRoutes = require('./routes/index');
 import RedisStore, { RedisReply } from 'rate-limit-redis';
 import { _envConfig, connectDB } from './utils/config';
+import { connectRabbitMQ } from './utils/rabbitmq';
 
 const app = express();
 dotenv.config();
@@ -53,9 +54,20 @@ app.use('/api/posts', (req: any, res: Response, next: NextFunction) => {
 
 app.use(errorHandler);
 
-app.listen(_envConfig.port, () => {
-    logger.info(`Post Service Running on PORT: ${_envConfig.port}`)
-});
+const startServer = async () => {
+    try {
+        await connectRabbitMQ();
+        app.listen(_envConfig.port, () => {
+            logger.info(`Post Service Running on PORT: ${_envConfig.port}`)
+        });
+    } catch (error) {
+        logger.info(`Failed to connect to server`, error);
+        process.exit(1);
+    }
+}
+
+startServer();
+
 
 //unhandled rejection
 process.on('unhandledRejection', (reason, promise) => {

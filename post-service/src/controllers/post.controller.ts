@@ -3,6 +3,7 @@ import { logger } from "../utils/logger";
 import { PostModel } from "../models/Post.model";
 import { validateCreatePost } from "../utils/validations";
 import { invalidatePostCache } from "../utils/redis";
+import { publishEvent } from "../utils/rabbitmq";
 
 export const createPost = async (req: any, res: Response) => {
     logger.info('Create Post Endpoint Hit')
@@ -110,17 +111,22 @@ export const getPost = async (req: any, res: Response) => {
     }
 }
 
-export const deletePost = async (req: Request, res: Response) => {
+
+
+export const deletePost = async (req: any, res: Response) => {
     logger.info('Post Delete Endpoint Hit')
     try {
         const { postId } = req.params;
-        console.log("check1", postId)
         const post = await PostModel.findById(postId)
-        console.log("check2")
         await PostModel.findByIdAndDelete({ _id: postId });
-        console.log("check3")
+
+        await publishEvent('post.deleted', {
+            postId: post?._id?.toString(),
+            userId: req.user.userId,
+            mediaId: post?.mediaId
+        })
+
         invalidatePostCache(post, postId, true);
-        console.log("check4")
         res.status(200).json({
             success: true,
             message: "Post Deleted Succesfully"
